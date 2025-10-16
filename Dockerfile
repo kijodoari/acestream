@@ -1,5 +1,5 @@
 FROM python:3.10-slim
-ENV DOWNLOAD_URL="https://download.acestream.media/linux/acestream_3.2.3_ubuntu_22.04_x86_64_py3.10.tar.gz"
+ENV DOWNLOAD_URL="https://download.acestream.media/linux/acestream_3.2.11_ubuntu_22.04_x86_64_py3.10.tar.gz"
 RUN apt update ; apt install -yq wget
 RUN useradd --shell /bin/bash --home-dir /srv/ace --create-home ace
 USER ace
